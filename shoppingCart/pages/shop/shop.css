@@ -1,0 +1,38 @@
+.shop{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    margin: 10px 0;
+    text-align: center;
+    gap: 10px;
+}
+
+.product{
+    margin: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
+    min-width: 150px;
+    max-width: 350px;
+}
+
+.product img{
+    width: 100%;
+}
+
+.info h3, .info p{
+    padding: 10px 0;
+}
+
+.addtoCart{
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+}
+
+.addtoCart:hover{
+    background-color: white;
+    color: black;
+}

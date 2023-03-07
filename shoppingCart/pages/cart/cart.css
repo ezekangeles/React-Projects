@@ -1,0 +1,23 @@
+.cartItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.cart h1{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.cartItem{
+    width: 350px;
+    text-align: center;
+    margin: 10px 0;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,.1);
+    display: flex;
+}
+
+.cartItem img{
+    width: 50%;
+}
